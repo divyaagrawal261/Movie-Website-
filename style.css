@@ -96,14 +96,14 @@ h5{
     font-size: 8px;
 }
 .card1{
-    background-image: url('aquaman.jpg');
+    background-image: url('./assets/aquaman.jpg');
 }
 .card2{
-    background-image: url('joker-2019.jpg');
+    background-image: url('./assets/joker-2019.jpg');
 }
 .card3{
-    background-image: url('inception.jpg');
+    background-image: url('./assets/inception.jpg');
 }
 .card4{
-    background-image: url('wolverine.jpg');
+    background-image: url('./assets/wolverine.jpg');
 }
