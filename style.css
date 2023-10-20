@@ -64,6 +64,13 @@ p{
     font-size: 11px;
     line-height: 15px;
 }
+
+.navbar a.active {
+    transform: none;
+    color: #ffd700;
+    font-size: 16px;
+  }
+
 .btn{
     width: 180px;
     color: black;
