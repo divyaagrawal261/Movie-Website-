@@ -64,9 +64,10 @@ p{
     font-size: 11px;
     line-height: 15px;
 }
-button{
+.btn{
     width: 180px;
     color: black;
+    font-weight: bolder;
     font-size: 12px;
     padding: 12px 0;
     background: white;
@@ -74,9 +75,12 @@ button{
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+
 }
 button:hover{
-    background: yellow;
+    background: rgb(204, 204, 139);
+    font-size: 15px;
+    transition: ease-in-out;
 }
 .card{
     width: 200px;
