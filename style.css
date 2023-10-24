@@ -117,3 +117,21 @@ h5{
 .card4{
     background-image: url('./assets/wolverine.jpg');
 }
+
+@media screen and (max-width: 800px) {
+    .col2{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        margin-top: 150%;
+        transform: translate(-60%, 0);
+        width: 160%;
+    }
+
+    .card4{
+        display: block;
+        margin-top: 40%;
+        transform: translate(-360%, 5%);
+        animation: none;
+    }
+}
