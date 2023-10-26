@@ -64,24 +64,39 @@ p{
     font-size: 11px;
     line-height: 15px;
 }
-.btn{
-    width: 180px;
-    color: black;
-    font-weight: bolder;
-    font-size: 12px;
-    padding: 12px 0;
-    background: white;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
 
-}
-button:hover{
-    background: rgb(204, 204, 139);
-    font-size: 15px;
-    transition: ease-in-out;
-}
+.navbar a.active {
+    transform: none;
+    color: #ffd700;
+    font-size: 16px;
+  }
+
+
+
+
+         
+         
+  .btn {
+    background-image: linear-gradient(to right, #F7971E 0%, #FFD200  51%, #F7971E  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
 .card{
     width: 200px;
     height: 230px;
