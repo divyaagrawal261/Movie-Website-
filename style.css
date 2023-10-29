@@ -17,6 +17,8 @@
     height: 12%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    z-index: 10;
 }
 .logo{
     width: 200px;
@@ -27,6 +29,8 @@
     height: auto;
     cursor: pointer;
     margin-left: 40px;
+    display: none;
+    cursor: pointer;
 }
 nav{
     flex: 1;
@@ -171,5 +175,31 @@ h5{
         margin-top: 40%;
         transform: translate(-360%, 5%);
         animation: none;
+    }
+    /* // navigation  */
+    nav{
+        overflow: hidden;
+   position: absolute;
+   right: 0;
+   height: 100dvh;
+   bottom: 0;
+   background: black;
+   width: 0;
+   transition: .3s ease-in-out;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .menu-icon{
+        display: block;
+        z-index: 300;
+    }
+    .widthToggle {
+        width: 50%;
     }
 }
