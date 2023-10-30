@@ -14,7 +14,7 @@
     padding-right: 8%;
 }
 .navbar{
-    height: 12%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -172,8 +172,6 @@ h5{
 
     .card4{
         display: block;
-        margin-top: 40%;
-        transform: translate(-360%, 5%);
         animation: none;
     }
     /* // navigation  */
@@ -203,3 +201,24 @@ h5{
         width: 50%;
     }
 }
+
+
+@media (max-width:1120px) {
+     /* // row content  */
+     .row{
+        flex-direction: column;
+        gap: 3rem;
+        padding-bottom: 2rem;
+      }
+      /* second col  */
+      .secondcol{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
+      /* // container  */
+      .container{
+        height: auto;
+      }
+} 
