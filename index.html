@@ -12,7 +12,7 @@
     <div class="container">
         <div class="navbar">
             <img src="./assets/Movie.png" class="logo">
-            <nav>
+            <nav class="mobile-nav">
                 <ul>
                     <li><a href="#" class="active" class="hover-underline-animation">HOME</a></li>
                     <li><a href="#" class="hover-underline-animation">CATEGORY</a></li>
@@ -50,5 +50,13 @@
             
         </div>
     </div>
+    <script>
+        const hammenu = document.querySelector(".menu-icon");
+        const nav = document.querySelector(".mobile-nav")
+        hammenu.addEventListener("click",()=>{
+               nav.classList.toggle("widthToggle")
+
+        })
+    </script>
 </body>
 </html>
